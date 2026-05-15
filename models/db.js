@@ -3,11 +3,11 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize(
 	"biblioteca",
 	"root",
-	"vini",
+	"123456",
 	{
 		host: "localhost",
 		dialect: "mysql",
-		port: 3307
+		port: 3306
 	}
 	
 );
