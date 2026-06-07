@@ -40,6 +40,10 @@ const livros = db.sequelize.define("livros", {
         type: db.Sequelize.INTEGER,
         allowNull: true
     },
+
+}, {
+    timestamps: false,
+    tableName: 'usuarios'
 });
 
 module.exports = livros;
